@@ -61,3 +61,8 @@ white_keys = [
     NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_B4,
     NOTE_C5, NOTE_D5, NOTE_E5, NOTE_F5, NOTE_G5, NOTE_A5, NOTE_B5
 ]
+
+# Convert note duration to seconds based on tempo
+def duration_in_seconds(duration, tempo):
+    eighth_duration = 60 / tempo  # Duration of one eighth note in seconds
+    return duration * eighth_duration
