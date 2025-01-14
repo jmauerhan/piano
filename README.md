@@ -101,6 +101,7 @@ I first tested out the wiring on a breadboard, then transferred that to a solder
 - Cut the white_keys from the Frosted White Cast Acrylic
 - Cut the black_keys from the Black LED Cast Acrylic
 - Cut all other files using 3mm basswood.
+   - Be sure to cut 2 of the "case-wall-2x"
 
 *Fixes/Notes*
 - The acrylic keys have been adjusted, so the white piece is slightly bigger, and the black keys are slightly taller. This allows for space to adhere to the wood case, and place the LED holder.
