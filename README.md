@@ -1,6 +1,9 @@
 # LED Piano with Speaker: Audio Visual Art
 
-![Finished Project](https://github.com/jmauerhan/piano/blob/main/piano-photos/finished.jpg?raw=true)
+<img src="piano-photos/finished.jpg" width=50% height=50%>
+
+## Video
+[![Video](https://img.youtube.com/vi/4fef2JDTV4o/0.jpg)](https://www.youtube.com/watch?v=4fef2JDTV4o)
 
 ## Overview
 This project uses NeoPixel LED animations and PWM-based tone playback functionality, designed to replicate the nostalgic audio experience of early video game technology, to create an audiovisual work of art. 
@@ -156,4 +159,7 @@ If you used a different density strip, or don't line them up this way, you will 
 
 ### Back with Hanger Holes
 This is the last piece, and when I attached mine I glued it on backwards despite checking it several times before glueing. Oh well! I decided it made it artsy and added an acrylic music note. 
-- Line it up with the back of the case and glue - either direction! :D 
+- Line it up with the back of the case and glue - either direction! :D
+
+## Finish: Customize!
+I added "Mr. Ian's Piano Room" as my daughter requested, and a music note to try to offset the funky look of my backwards back. 
