@@ -8,7 +8,6 @@ import time
 from config import *
 
 from notes import *
-from midi import *
 from custom_shuffle import *
 from song_list import *
 
