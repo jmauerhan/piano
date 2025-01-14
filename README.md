@@ -1,5 +1,7 @@
 # LED Piano with Speaker: Audio Visual Art
 
+![Finished Project](https://github.com/jmauerhan/piano/blob/main/piano-photos/finished.jpg?raw=true)
+
 ## Overview
 This project uses NeoPixel LED animations and PWM-based tone playback functionality, designed to replicate the nostalgic audio experience of early video game technology, to create an audiovisual work of art. 
 
@@ -32,17 +34,17 @@ As mentioned, I was working only with supplies I already had on hand - you may n
   - I used the [Adafruit STEMMA speaker](https://www.adafruit.com/product/3885) which has a Class D amplifier on board. The only downside is not being able to easily adjust the volume once the entire project is assembled. 
 - Panel Mount Momentary Button [Amazon: Momentary Push Buttons](https://www.amazon.com/gp/product/B0DB5PMLBH)
 
-#### Power & Assembly:
-- Power: 
-  - USB-C Power Male Pigtail: [Amazon](https://www.amazon.com/gp/product/B0BFHXWCS9)
-  - Option: USB-C Port
-    - Mini Rocker Switch [Amazon: DaierTek Mini Rocker Switch](https://www.amazon.com/gp/product/B07S2QJKTX) 
-    - USB-C Female Socket Connector with Pigtail [Amazon](https://www.amazon.com/gp/product/B0D1K23RTG)
-  - Option: DC 2.1mm port
-    - DC Power 5.5mm x 2.1mm Pigtail Barrel Plug Connector Cable [Amazon](https://www.amazon.com/gp/product/B072BXB2Y8)
-    - Inline DC Power Switch: [Amazon: Inline Switch,Low Voltage Switch, Manual Inline DC Power Switch Extension Cable](https://www.amazon.com/gp/product/B099S33P7F)
-    - 5V 1A Power Supply Wall Adapter: [Amazon: 5V 1A Power Supply](https://www.amazon.com/gp/product/B0915SN2QN)
-
+#### Power: 
+- USB-C Power Male Pigtail: [Amazon](https://www.amazon.com/gp/product/B0BFHXWCS9)
+- Option: USB-C Port
+  - Mini Rocker Switch [Amazon: DaierTek Mini Rocker Switch](https://www.amazon.com/gp/product/B07S2QJKTX) 
+  - USB-C Female Socket Connector with Pigtail [Amazon](https://www.amazon.com/gp/product/B0D1K23RTG)
+- Option: DC 2.1mm port
+  - DC Power 5.5mm x 2.1mm Pigtail Barrel Plug Connector Cable [Amazon](https://www.amazon.com/gp/product/B072BXB2Y8)
+  - Inline DC Power Switch: [Amazon: Inline Switch,Low Voltage Switch, Manual Inline DC Power Switch Extension Cable](https://www.amazon.com/gp/product/B099S33P7F)
+  - 5V 1A Power Supply Wall Adapter: [Amazon: 5V 1A Power Supply](https://www.amazon.com/gp/product/B0915SN2QN)
+ 
+#### Assembly:
 - Perma-Proto Board or Solderable Prototype Breadboard
   - [Adafruit Perma-Proto Board](https://www.adafruit.com/product/1609)
   - [Amazon: ElectroCookie](https://www.amazon.com/ElectroCookie-Solderable-Breadboard-Electronics-Gold-Plated/dp/B081MSKJJX)
@@ -94,7 +96,13 @@ ONBOARD_PIXEL_PIN = board.NEOPIXEL
 
 I first tested out the wiring on a breadboard, then transferred that to a solderable prototype breadboard, and added terminal blocks for the speaker, button and LED strip. I used 5mm terminal blocks because the 2-3 pin ones do fit easily on a breadboard, and I struggled to turn the tiny screws on the 2.54mm size.
 
+![Wiring Diagram](https://github.com/jmauerhan/piano/blob/main/piano-photos/Piano-KB2040_schem.png?raw=true)
 
+![Prototype](https://github.com/jmauerhan/piano/blob/main/piano-photos/prototype.jpg?raw=true)
+
+![Perma-Proto Diagram](https://github.com/jmauerhan/piano/blob/main/piano-photos/Piano-KB2040-perma-proto_bb.png?raw=true)
+
+![Perma-Proto](https://github.com/jmauerhan/piano/blob/main/piano-photos/proto-board.jpg?raw=true)
 
 ## Laser Cutting & Piano Assembly
 - Cut the Piano Top out of the Walnut Veneer Plywood
@@ -116,11 +124,16 @@ I first tested out the wiring on a breadboard, then transferred that to a solder
 - Flip it back over and apply a small amount of CA glue to attach the keys to the top. 
 
 #### LED holder
-*Note*: In my version, the LED holder is slightly smaller than intended. The SVG file I've uploaded in this repository is the correct fixed size.
-- If using taller LEDs, you can either cut the LED holder out of thicker plywood, or cut a few layers of it. The middle prongs on the holder should line up with the bottom of the black keys.
-- Stick the LED strip to the holder, wrapping from the middle around the entire perimeter of the shape.
+If you used an LED strip with 160 LEDs per meter: everything will be easier if you try to get the second and third pixels lined up with the B - leaving the first pixel unused. 
+If you used a different density strip, or don't line them up this way, you will need to go into the `notes.py` file and adjust all of the pixel ranges. Sorry, that's a pain!
+- Stick the LED strip to the holder wrapping from the middle around the entire perimeter of the shape.
 - Attach the LED holder to the acrylic (I suggest either hot glue or crafting "sticky dots" rather than CA glue, in case you need to adjust this part or have a problem with the LEDs due to the fragile connection pads.
+- Plug everything in and verify all of the notes light up as expected - you can update the `song_list` file and only play `test` in order to step through each note. If you need to make adjustments, do so in `notes.py`
 - Attach the LED back to the LED holder - again ideally using hot glue rather than CA glue.
+
+![Main Case Assembly](https://github.com/jmauerhan/piano/blob/main/piano-photos/led-assembly-test.jpg?raw=true)
+
+![Main Case Assembly](https://github.com/jmauerhan/piano/blob/main/piano-photos/leds-test.jpg?raw=true)
 
 #### Main Case Body
 - Test fit / Friction Fit the main body - the sides should fit tightly into the back, and the flat side faces up. Do not glue anything yet.
@@ -131,6 +144,10 @@ I first tested out the wiring on a breadboard, then transferred that to a solder
 - Test the circuits!
 - Assuming everything works, attach the perma-proto board to the case, I used the "sticky dots", nylon screws would work as well. The speaker can be stuck to the back of the case as well.
 - Gently squeeze a small amount of CA glue into the finger joints of the sides and the back - don't overdo it!
+
+![Main Case Assembly](https://github.com/jmauerhan/piano/blob/main/piano-photos/case-assembly.jpg?raw=true) 
+
+![Power Wiring Close-up](https://github.com/jmauerhan/piano/blob/main/piano-photos/power.jpg?raw=true) 
 
 ### Front
 - Line up the top (which includes the LEDs) over the case, the bottom and sides of the case should line up with the piano top, and the walls should fit snugly around the LED housing.
