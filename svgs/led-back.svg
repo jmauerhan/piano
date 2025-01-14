@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 726 270" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-75.547,-555.591)">
+        <g id="LED-guide-BG" serif:id="LED guide BG" transform="matrix(1.23865,0,0,1.23636,214.152,170.825)">
+            <path d="M473.952,337.37L473.952,503.063C473.952,517.502 462.251,529.225 447.838,529.225L-85.786,529.225C-100.198,529.225 -111.9,517.502 -111.9,503.063L-111.9,337.37C-111.9,322.93 -100.198,311.207 -85.786,311.207L447.838,311.207C462.251,311.207 473.952,322.93 473.952,337.37Z" style="fill:rgb(111,65,0);"/>
+        </g>
+    </g>
+</svg>
