@@ -22,7 +22,7 @@ As mentioned, I was working only with supplies I already had on hand - you may n
 - CO2 Laser Cutter (A Diode laser may not be capable of cutting the acrylic as it is semi-transparent, and opaque acrylic will not work for this project). 
 - 3mm (1/4") Plywood (I used xTool brand basswood sheets, I prefer basswood over birch plywood for laser)
 - 3mm Walnut Veneer Plywood [Amazon: ROBOTIME 6-Pack 1/8" Walnut Plywood Sheets](https://www.amazon.com/gp/product/B0CYLW48ZV)
-- 3mm Black LED Cast Acrylic [Custom Made Better: 1/8" Black LED Cast Acrylic)[https://www.custommadebetter.com/products/black-led-cast-acrylic-sheets]
+- 3mm Black LED Cast Acrylic [Custom Made Better: 1/8" Black LED Cast Acrylic](https://www.custommadebetter.com/products/black-led-cast-acrylic-sheets)
 - 3mm Frosted White Cast Acrylic [Custom Made Better: 1/8" Frosted White Cast Acrylic Sheets](https://www.custommadebetter.com/products/1-8-matte-milky-white-acrylic-sheet)
 
 ### Hardware
