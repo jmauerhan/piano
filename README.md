@@ -5,6 +5,28 @@
 ## Video
 [![Video](https://img.youtube.com/vi/4fef2JDTV4o/0.jpg)](https://www.youtube.com/watch?v=4fef2JDTV4o)
 
+# Table of Contents
+- [Overview](#overview)
+- [Requirements](#requirements)
+  - [Piano / Case](#piano--case)
+  - [Hardware](#hardware)
+    - [Board, LEDs, Speaker](#board-leds-speaker)
+    - [Power](#power)
+    - [Assembly](#assembly)
+- [Instructions](#instructions)
+  - [Circuit Python Code](#circuit-python-code)
+    - [Install Circuit Python](#install-circuit-python)
+    - [Configure for your board](#configure-for-your-board)
+  - [Wiring Diagram](#wiring-diagram)
+  - [Laser Cutting & Piano Assembly](#laser-cutting--piano-assembly)
+    - [Keyboard](#keyboard)
+      - [Acrylic](#acrylic)
+      - [LED holder](#led-holder)
+    - [Main Case Body](#main-case-body)
+    - [Front](#front)
+    - [Back with Hanger Holes](#back-with-hanger-holes)
+  - [Finish: Customize!](#finish-customize)
+
 ## Overview
 This project uses NeoPixel LED animations and PWM-based tone playback functionality, designed to replicate the nostalgic audio experience of early video game technology, to create an audiovisual work of art. 
 
